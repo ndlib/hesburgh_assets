@@ -17,6 +17,6 @@ gem 'therubyracer'
 gem 'newrelic_rpm'
 
 group :development, :test do
-  gem "hesburgh_infrastructure", git: 'git@git.library.nd.edu:hesburgh_infrastructure'
+  gem "hesburgh_infrastructure", git: 'https://github.com/ndlib/hesburgh_infrastructure.git'
   gem 'rb-readline', '~> 0.4.2'
 end
